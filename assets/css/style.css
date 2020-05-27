@@ -426,6 +426,23 @@ section {
   background-color: #149ddd;
 }
 
+
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .content ul li {
+  padding-bottom: 10px;
+}
+
+.skills .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #149ddd;
+}
+
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -781,17 +798,12 @@ section {
   padding-top: 5px;
 }
 
-.contact .info .social-links {
-  padding-left: 60px;
-}
-
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
   color: #fff;
-  line-height: 1;
-  padding: 8px 0;
+  /* line-height: 1; */
+  /* padding: 8px 0; */
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -800,12 +812,12 @@ section {
   margin-right: 10px;
 }
 
-.contact .info .social-links a:hover {
+.contact .info .social-links i:hover {
   background: #149ddd;
   color: #fff;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i  {
   background: #149ddd;
   color: #fff;
 }
