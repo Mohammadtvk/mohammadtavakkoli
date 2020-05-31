@@ -604,6 +604,18 @@ section {
   bottom: 0;
 }
 
+.portfolio i {
+  font-size: 20px;
+  display: inline;
+  padding-right: 2px;
+  color: #149ddd;
+}
+.portfolio h5 {
+  display: inline;
+}
+
+
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
